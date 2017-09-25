@@ -1,0 +1,8 @@
+This file lists the error messages recieved when altering the syntax of "hello.c". 
+
+Error 1: Changing "main()" to "main(", i.e. leaving out a parathesis. 
+------------------------------------OUTPUT--------------------------------------
+hello.c:4:1: error: expected declaration specifiers or ‘...’ before ‘{’ token
+ {
+ ^
+--------------------------------------------------------------------------------
