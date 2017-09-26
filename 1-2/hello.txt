@@ -1,0 +1,1 @@
+Replacing the newline character '\n' with some character '\c' results in an unknown escape sequence warning from the gcc compiler. This does not interfere with compliation of hello.c. Running the resulting a.out executable gives the string "hello, worldc" with no newline after. So the c is treated as a character and the backslash ignored.  
