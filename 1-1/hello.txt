@@ -6,3 +6,18 @@ hello.c:4:1: error: expected declaration specifiers or ‘...’ before ‘{’ 
  {
  ^
 --------------------------------------------------------------------------------
+
+Error 2: Changing "void" to "voi". 
+--------------------------------------------------------------------------------
+hello.c:3:1: error: unknown type name ‘voi’
+ voi main() 
+ ^
+ -------------------------------------------------------------------------------
+
+Error 3: Removing the 'hashtag' symbol in the preprocessing directive #include <stdio.h> 
+--------------------------------------------------------------------------------
+hello.c:1:9: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<’ token
+ include <stdio.h> 
+         ^
+--------------------------------------------------------------------------------
+
